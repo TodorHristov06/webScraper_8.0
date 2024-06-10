@@ -11,7 +11,9 @@ BOT_NAME = "desktop_bg_scraper"
 
 SPIDER_MODULES = ["desktop_bg_scraper.spiders"]
 NEWSPIDER_MODULE = "desktop_bg_scraper.spiders"
-
+ITEM_PIPELINES = {
+    'desktop_bg_scraper.pipelines.SQLitePipeline': 300,
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "desktop_bg_scraper (+http://www.yourdomain.com)"
