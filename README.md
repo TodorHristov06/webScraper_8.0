@@ -23,3 +23,21 @@ Clone the project to your local machine using the following command:
 - Python 3.7+
 - Scrapy
 - SQLite3
+
+# Create a virtual environment (Linux or macOS)
+python3 -m venv venv
+
+# Create a virtual environment (Windows)
+python -m venv venv
+
+# Activate the virtual environment (Linux or macOS)
+source venv/bin/activate
+
+# Activate the virtual environment (Windows)
+.\venv\Scripts\activate
+
+- ## Installation 
+pip install -r requirements.txt
+
+## Usage
+* `scrapy crawl <desktopbg_spider>` - runs the spider
