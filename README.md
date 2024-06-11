@@ -15,9 +15,9 @@ To use this project, Python must be installed along with several dependencies vi
 
 ### Step 1: Clone the Repository
 Clone the project to your local machine using the following command:
-    ```bash
-    git clone https://github.com/TodorHristov06/webScraper_8.0
-    ```
+```
+bash git clone https://github.com/TodorHristov06/webScraper_8.0
+```
 - ## Prerequisites
 
 - Python 3.7+
