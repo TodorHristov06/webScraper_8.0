@@ -25,24 +25,24 @@ bash git clone https://github.com/TodorHristov06/webScraper_8.0
 - SQLite3
 
 # Create a virtual environment (Linux or macOS)
-```
+`
 python3 -m venv venv
 ```
 # Create a virtual environment (Windows)
-```
+`
 python -m venv venv
-```
+`
 # Activate the virtual environment (Linux or macOS)
-```
+`
 source venv/bin/activate
-```
+`
 # Activate the virtual environment (Windows)
-```
+`
 .\venv\Scripts\activate
-```
+`
 - ## Installation
-``` 
+`
 pip install -r requirements.txt
-```
+`
 ## Usage
 * `scrapy crawl <desktopbg_spider>` - runs the spider
